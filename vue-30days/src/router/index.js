@@ -5,7 +5,7 @@ import TodoApp from "@/views/TodoApp.vue";
 import Bindings from "@/views/Bindings.vue";
 import ConditionLoop from "@/views/ConditionLoop.vue";
 import Components from "@/views/Components.vue";
-import ChildComp from "@/views/ChildComp.vue";
+import Emitter from "@/views/Emitter.vue";
 
 
 const router = createRouter({
@@ -17,7 +17,7 @@ const router = createRouter({
     {path: '/Bindings', name: 'Bindings', component: Bindings},
     {path: '/ConditionLoop', name: 'ConditionLoop', component: ConditionLoop},
     {path: '/Components', name: 'Components', component: Components},
-    {path: '/ChildComp', name: 'ChildComp', component: ChildComp},
+    {path: '/Emitter', name: 'Emitter', component: Emitter},
   ],
 })
 
