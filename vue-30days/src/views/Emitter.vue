@@ -1,5 +1,5 @@
 <script setup>
-import EmitterChild from "@/views/EmitterChild.vue";
+import EmitterChild from "@/components/EmitterChild.vue";
 import {ref} from "vue"
 const Tasks=ref([])
 function handleAddTask(tasks){

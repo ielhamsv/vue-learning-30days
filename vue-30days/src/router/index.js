@@ -6,6 +6,7 @@ import Bindings from "@/views/Bindings.vue";
 import ConditionLoop from "@/views/ConditionLoop.vue";
 import Components from "@/views/Components.vue";
 import Emitter from "@/views/Emitter.vue";
+import ComputedWatch from "@/views/ComputedWatch.vue";
 
 
 const router = createRouter({
@@ -18,6 +19,7 @@ const router = createRouter({
     {path: '/ConditionLoop', name: 'ConditionLoop', component: ConditionLoop},
     {path: '/Components', name: 'Components', component: Components},
     {path: '/Emitter', name: 'Emitter', component: Emitter},
+    {path: '/ComputedWatch', name: 'ComputedWatch', component: ComputedWatch},
   ],
 })
 

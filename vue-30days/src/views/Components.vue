@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue"
-import ChildComp from "@/views/ChildComp.vue";
+import ChildComp from "@/components/ChildComp.vue";
 const Name=ref("")
 const LastName=ref("")
 const items = ref([])
