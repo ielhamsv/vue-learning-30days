@@ -32,7 +32,9 @@
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
           <router-link to="/ComputedWatch">ComputedWatch</router-link>
         </div>
-        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
+        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
+          <router-link to="/Slots">Slots</router-link>
+        </div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
