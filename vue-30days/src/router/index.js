@@ -9,6 +9,9 @@ import Emitter from "@/views/Emitter.vue";
 import ComputedWatch from "@/views/ComputedWatch.vue";
 import Slots from "@/views/Slots.vue";
 import miniProject1 from "@/views/miniProject1.vue";
+import Home from "@/components/Home.vue";
+import About from "@/components/About.vue";
+import VueRouterBasics from "@/views/VueRouterBasics.vue";
 
 
 const router = createRouter({
@@ -24,6 +27,9 @@ const router = createRouter({
     {path: '/ComputedWatch', name: 'ComputedWatch', component: ComputedWatch},
     {path: '/Slots', name: 'Slots', component: Slots},
     {path: '/miniProject1', name: 'miniProject1', component: miniProject1},
+    {path: '/VueRouterBasics/Home', name: 'Home', component: Home},
+    {path: '/VueRouterBasics/About', name: 'About', component: About},
+    {path: '/VueRouterBasics', name: 'VueRouterBasics', component: VueRouterBasics},
   ],
 })
 
