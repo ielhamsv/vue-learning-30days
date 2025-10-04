@@ -13,6 +13,7 @@ import Home from "@/components/Home.vue";
 import About from "@/components/About.vue";
 import VueRouterBasics from "@/views/VueRouterBasics.vue";
 import NestedRoutes from "@/views/NestedRoutes.vue";
+import DynamicParams from "@/views/DynamicParams.vue";
 
 
 const router = createRouter({
@@ -35,6 +36,8 @@ const router = createRouter({
         {path: 'About', component:About},
         {path: 'Home', component:Home}
       ]},
+    {path: '/DynamicParams', name: 'DynamicParams', component: DynamicParams},
+    {path: '/users/:id', component: DynamicParams},
   ],
 })
 
