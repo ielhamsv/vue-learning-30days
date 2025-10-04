@@ -12,6 +12,7 @@ import miniProject1 from "@/views/miniProject1.vue";
 import Home from "@/components/Home.vue";
 import About from "@/components/About.vue";
 import VueRouterBasics from "@/views/VueRouterBasics.vue";
+import NestedRoutes from "@/views/NestedRoutes.vue";
 
 
 const router = createRouter({
@@ -30,6 +31,10 @@ const router = createRouter({
     {path: '/VueRouterBasics/Home', name: 'Home', component: Home},
     {path: '/VueRouterBasics/About', name: 'About', component: About},
     {path: '/VueRouterBasics', name: 'VueRouterBasics', component: VueRouterBasics},
+    {path: '/NestedRoutes', name: 'NestedRoutes', component: NestedRoutes, children : [
+        {path: 'About', component:About},
+        {path: 'Home', component:Home}
+      ]},
   ],
 })
 
