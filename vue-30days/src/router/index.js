@@ -14,6 +14,8 @@ import About from "@/components/About.vue";
 import VueRouterBasics from "@/views/VueRouterBasics.vue";
 import NestedRoutes from "@/views/NestedRoutes.vue";
 import DynamicParams from "@/views/DynamicParams.vue";
+import MiniProject2 from "@/views/MiniProject2.vue";
+import Post from "@/components/Post.vue";
 
 
 const router = createRouter({
@@ -38,6 +40,8 @@ const router = createRouter({
       ]},
     {path: '/DynamicParams', name: 'DynamicParams', component: DynamicParams},
     {path: '/users/:id', component: DynamicParams},
+    {path: '/MiniProject2', name:'/MiniProject2',component: MiniProject2},
+    {path: '/MiniProject2/post/:id',component:Post }
   ],
 })
 
