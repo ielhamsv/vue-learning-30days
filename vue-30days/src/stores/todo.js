@@ -1,7 +1,11 @@
 import {defineStore} from "pinia";
 
 export const useTodostore = defineStore("todo",{
-  state: () => ({todos:[]}),
+  state: () => ({todos: [] }),
+  getters: {
+    donecount: (state) => state.todos.filter(t => t.done).length,
+    total: (state) => state.todos.length
+  },
   actions: {
     addTask(task){
       this.todos.push({title:task,done:false})
