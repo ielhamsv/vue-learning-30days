@@ -55,7 +55,9 @@
       <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
         <router-link to="/piniaBasics">piniaBasics</router-link>
       </div>
-      <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
+      <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
+        <router-link to="/PiniaActions">PiniaActions</router-link>
+      </div>
       <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
       <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
     </div>
