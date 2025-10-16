@@ -19,6 +19,7 @@ import Post from "@/components/Post.vue";
 import piniaBasics from "@/views/piniaBasics.vue"
 import PiniaActions from "@/views/PiniaActions.vue";
 import PiniaGetters from "@/views/PiniaGetters.vue";
+import FetchAPIGet from "@/views/FetchAPIGet.vue";
 
 
 const router = createRouter({
@@ -48,6 +49,7 @@ const router = createRouter({
     {path: '/piniaBasics', name: 'piniaBasics', component: piniaBasics},
     {path: '/PiniaActions', name: 'PiniaActions', component: PiniaActions},
     {path: '/PiniaGetters', name: 'PiniaGetters', component: PiniaGetters},
+    {path: '/FetchAPIGet', name: 'FetchAPIGet', component: FetchAPIGet},
   ],
 })
 
