@@ -69,7 +69,9 @@
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
           <router-link to="/FetchAPIPost">FetchAPIPost</router-link>
         </div>
-        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
+        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
+          <router-link to="/PiniaAPI">PiniaAPI</router-link>
+        </div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
