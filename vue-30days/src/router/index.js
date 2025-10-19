@@ -22,6 +22,7 @@ import PiniaGetters from "@/views/PiniaGetters.vue";
 import FetchAPIGet from "@/views/FetchAPIGet.vue";
 import FetchAPIPost from "@/views/FetchAPIPost.vue";
 import PiniaAPI from "@/views/PiniaAPI.vue";
+import miniProject3 from "@/views/MiniProject3.vue"
 
 
 const router = createRouter({
@@ -54,6 +55,7 @@ const router = createRouter({
     {path: '/FetchAPIGet', name: 'FetchAPIGet', component: FetchAPIGet},
     {path: '/FetchAPIPOST', name: 'FetchAPIPOST', component: FetchAPIPost},
     {path: '/PiniaAPI', name: 'PiniaAPI', component: PiniaAPI},
+    {path: '/miniProject3', name: 'miniProject3', component: miniProject3},
   ],
 })
 
