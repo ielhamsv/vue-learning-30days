@@ -75,7 +75,9 @@
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
           <router-link to="/miniProject3">miniProject3</router-link>
         </div>
-        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
+        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
+          <router-link to="/CRUDProject">CRUDProject</router-link>
+        </div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
       </div>
