@@ -24,6 +24,7 @@ import FetchAPIPost from "@/views/FetchAPIPost.vue";
 import PiniaAPI from "@/views/PiniaAPI.vue";
 import miniProject3 from "@/views/MiniProject3.vue"
 import CRUDProject from "@/views/CRUDProject.vue";
+import Lifecycle from "@/views/Lifecycle.vue";
 
 
 const router = createRouter({
@@ -58,6 +59,7 @@ const router = createRouter({
     {path: '/PiniaAPI', name: 'PiniaAPI', component: PiniaAPI},
     {path: '/miniProject3', name: 'miniProject3', component: miniProject3},
     {path: '/CRUDProject', name: 'CRUDProject', component: CRUDProject},
+    {path: '/Lifecycle', name: 'Lifecycle', component: Lifecycle},
   ],
 })
 
