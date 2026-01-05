@@ -26,6 +26,7 @@ import miniProject3 from "@/views/MiniProject3.vue"
 import CRUDProject from "@/views/CRUDProject.vue";
 import Lifecycle from "@/views/Lifecycle.vue";
 import Composables from "@/views/Composables.vue";
+import Provide from "@/views/Provide.vue";
 
 
 const router = createRouter({
@@ -62,6 +63,7 @@ const router = createRouter({
     {path: '/CRUDProject', name: 'CRUDProject', component: CRUDProject},
     {path: '/Lifecycle', name: 'Lifecycle', component: Lifecycle},
     {path: '/Composables', name: 'Composables', component: Composables},
+    {path: '/Provide', name: 'Provide', component: Provide},
   ],
 })
 
