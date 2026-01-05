@@ -27,6 +27,7 @@ import CRUDProject from "@/views/CRUDProject.vue";
 import Lifecycle from "@/views/Lifecycle.vue";
 import Composables from "@/views/Composables.vue";
 import Provide from "@/views/Provide.vue";
+import Form from "@/views/Form.vue";
 
 
 const router = createRouter({
@@ -64,6 +65,7 @@ const router = createRouter({
     {path: '/Lifecycle', name: 'Lifecycle', component: Lifecycle},
     {path: '/Composables', name: 'Composables', component: Composables},
     {path: '/Provide', name: 'Provide', component: Provide},
+    {path: '/Form', name: 'Form', component: Form},
   ],
 })
 
