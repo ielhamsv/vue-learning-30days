@@ -94,7 +94,7 @@ import Composables from "@/views/Composables.vue";
           <router-link to="/Form">Form</router-link>
         </div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
-
+          <router-link to="/ReusableComponents">ReusableComponents</router-link>
         </div>
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
 

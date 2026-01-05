@@ -28,6 +28,7 @@ import Lifecycle from "@/views/Lifecycle.vue";
 import Composables from "@/views/Composables.vue";
 import Provide from "@/views/Provide.vue";
 import Form from "@/views/Form.vue";
+import ReusableComponents from "@/views/ReusableComponents.vue";
 
 
 const router = createRouter({
@@ -66,6 +67,7 @@ const router = createRouter({
     {path: '/Composables', name: 'Composables', component: Composables},
     {path: '/Provide', name: 'Provide', component: Provide},
     {path: '/Form', name: 'Form', component: Form},
+    {path: '/ReusableComponents', name: 'ReusableComponents', component: ReusableComponents},
   ],
 })
 
