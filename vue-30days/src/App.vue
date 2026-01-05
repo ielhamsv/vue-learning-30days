@@ -1,4 +1,5 @@
 <script setup>
+import Composables from "@/views/Composables.vue";
 </script>
 
 <template>
@@ -81,7 +82,9 @@
         <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
           <router-link to="/Lifecycle">Lifecycle</router-link>
         </div>
-        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center"></div>
+        <div class="col-md-2 shadow p-3 bg-body-tertiary rounded text-center">
+          <router-link to="/Composables">Composables</router-link>
+        </div>
       </div>
     </div>
   </header>

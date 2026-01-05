@@ -25,6 +25,7 @@ import PiniaAPI from "@/views/PiniaAPI.vue";
 import miniProject3 from "@/views/MiniProject3.vue"
 import CRUDProject from "@/views/CRUDProject.vue";
 import Lifecycle from "@/views/Lifecycle.vue";
+import Composables from "@/views/Composables.vue";
 
 
 const router = createRouter({
@@ -60,6 +61,7 @@ const router = createRouter({
     {path: '/miniProject3', name: 'miniProject3', component: miniProject3},
     {path: '/CRUDProject', name: 'CRUDProject', component: CRUDProject},
     {path: '/Lifecycle', name: 'Lifecycle', component: Lifecycle},
+    {path: '/Composables', name: 'Composables', component: Composables},
   ],
 })
 
