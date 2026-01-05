@@ -8,6 +8,7 @@ export const useCartStore = defineStore("cart",{
   actions: {
     add(product){
       this.items.push(product)
+      alert("added")
     },
     remove(id){
       this.items = this.items.filter(p => p.id !== id)

@@ -29,6 +29,9 @@ import Composables from "@/views/Composables.vue";
 import Provide from "@/views/Provide.vue";
 import Form from "@/views/Form.vue";
 import ReusableComponents from "@/views/ReusableComponents.vue";
+import FinalProject from "@/views/FinalProject.vue";
+import Cart from "@/views/Cart.vue";
+import Products from "@/views/Products.vue";
 
 
 const router = createRouter({
@@ -68,6 +71,9 @@ const router = createRouter({
     {path: '/Provide', name: 'Provide', component: Provide},
     {path: '/Form', name: 'Form', component: Form},
     {path: '/ReusableComponents', name: 'ReusableComponents', component: ReusableComponents},
+    {path: '/FinalProject', name: 'FinalProject', component: FinalProject},
+    {path: '/Products', name: 'Products', component: Products},
+    {path: '/Cart', name: 'Cart', component: Cart},
   ],
 })
 
